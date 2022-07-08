@@ -15,7 +15,7 @@ body{
 #svtao{
     background-image: url(./Sorvetes\ 1.jpeg);
     background-position: center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;
     border-radius: 50px;
