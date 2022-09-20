@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    /* background-color: black; */
+    /* background-image: url("../assets/milkshake_oreo.jpg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding: 0;
+}
+
+.main_container{
+    box-sizing: border-box;
+    border: 0.5px solid gray;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    /* position: relative; */
+}
+
+.headline_container{
+    display: flex;
+    text-align: center;
+}
+
+.headline_h1{
+    font-size: 1.2rem;
+    padding: 0 15px 0 15px;
+    margin: 10px 0 0 0;
+    color: white;
+}
+
+.main_image_container{
+    position: relative; 
+    display: flex;
+    height: fit-content;
+}
+
+.main_image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main_image_text{
+    justify-self: center;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.75);
+
+    border-radius: 50px;
+}
+
+.main_image_h2{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.capital{
+    color: green;
+}
+
+.headline_especial{
+    color: red;
+}
+
+.garantees{
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../assets/milkshake_oreo.png);
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+}
+
+.garantees_boxes{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.garantees_text_box{
+    font-size: 0.5rem;
+    width: 80%;
+}
+
+.garantees_texts{
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+.garantees_title{
+    font-size: large;
+}
+
+.garantees_paragraph{
+    font-size: medium;
+    font-weight: normal;
+}
+
+.garantees_image_box{
+    width: 20%;
+    display: flex;
+}
+
+.garantees_image{
+    width: 100%;
+    align-self: center;
+}
