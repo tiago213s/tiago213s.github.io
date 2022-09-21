@@ -95,7 +95,7 @@ header{
     justify-content: center;
     background-color: black;
     background-image: url(../assets/milkshake_oreo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat-x;
     background-position: center;
     box-sizing: border-box;
