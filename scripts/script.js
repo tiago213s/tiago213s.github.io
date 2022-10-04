@@ -17,10 +17,10 @@ function toggle1 () {
     if(q1){
         var display = q1.style.display
         
-        if(display == "flex"){
+        if(display == "inline-block"){
             q1.style.display = "none"
         } else {
-            q1.style.display = "flex"
+            q1.style.display = "inline-block"
         }
 
     }
@@ -32,10 +32,10 @@ function toggle2 () {
     if(q2){
         var display = q2.style.display
         
-        if(display == "flex"){
+        if(display == "inline-block"){
             q2.style.display = "none"
         } else {
-            q2.style.display = "flex"
+            q2.style.display = "inline-block"
         }
 
     }
@@ -47,10 +47,10 @@ function toggle3 () {
     if(q3){
         var display = q3.style.display
         
-        if(display == "flex"){
+        if(display == "inline-block"){
             q3.style.display = "none"
         } else {
-            q3.style.display = "flex"
+            q3.style.display = "inline-block"
         }
 
     }
@@ -62,10 +62,10 @@ function toggle4 () {
     if(q4){
         var display = q4.style.display
         
-        if(display == "flex"){
+        if(display == "inline-block"){
             q4.style.display = "none"
         } else {
-            q4.style.display = "flex"
+            q4.style.display = "inline-block"
         }
 
     }
