@@ -278,7 +278,6 @@ header{
     /* padding: 20px; */
     box-sizing: border-box;
     border-radius: 30px;
-    font-size: 2.7vw;
 }
 
 .faq_question_holder_box{
@@ -308,6 +307,7 @@ header{
     /* text-align: justify; */
     display: none;
     font-weight: 500;
+    font-size: 2.7vw;
 }
 
 .enfase{
