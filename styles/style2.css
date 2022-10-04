@@ -306,6 +306,11 @@ header{
     padding: 0 20px;
     /* text-align: justify; */
     display: none;
+    font-weight: 500;
+}
+
+.enfase{
+    font-weight: 700;
 }
 
 footer{
